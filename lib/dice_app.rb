@@ -1,7 +1,7 @@
 class Dice_App
 
   def roll_dice
-    return 1
+    rand(6)+1
   end
 
 
