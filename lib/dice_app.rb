@@ -4,5 +4,7 @@ class Dice_App
     rand(6)+1
   end
 
+  def roll_multiple_dice
+  end
 
 end

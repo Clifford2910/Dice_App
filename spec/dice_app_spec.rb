@@ -9,5 +9,7 @@ describe Dice_App do
     expect(subject.roll_dice).to eq (4)
   end
 
+  it { is_expected.to respond_to :roll_multiple_dice }
+
 
 end
